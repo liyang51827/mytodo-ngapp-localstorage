@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'w3pro.css';
+@import 'w3-colors-2018.css';
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.clearfix{
+    overflow: auto
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
